@@ -1,0 +1,5 @@
+function reverseString(a) {
+    const aRev = a.split('').reverse().join('');
+    console.log(aRev);
+}
+reverseString("hello world");
